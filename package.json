@@ -1,0 +1,26 @@
+{
+  "name": "interactive-grepper",
+  "version": "1.0.0",
+  "description": "Grep and split with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajithkb/interactive-grepper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajithkb/interactive-grepper/issues"
+  },
+  "homepage": "https://github.com/prajithkb/interactive-grepper#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "bin": {
+    "splitter": "./index.js"
+  }
+}
